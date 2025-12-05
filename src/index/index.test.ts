@@ -14,7 +14,7 @@ describe("index", () => {
 
   it('should log "Hello, World!" to console', async () => {
     // Re-import to trigger main() execution
-    await import("./index");
+    await import("./index.function");
 
     expect(consoleLogSpy).toHaveBeenCalledWith("Hello, World!");
     expect(consoleLogSpy).toHaveBeenCalledTimes(1);

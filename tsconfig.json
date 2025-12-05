@@ -12,7 +12,7 @@
     "esModuleInterop": true,
     "target": "esnext",
     "customConditions": ["module"],
-    "types": ["vitest"],
+    "types": ["vitest", "aws-lambda"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
