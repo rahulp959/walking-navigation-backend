@@ -12,7 +12,7 @@
     "esModuleInterop": true,
     "target": "esnext",
     "customConditions": ["module"],
-    "types": ["jest"],
+    "types": ["vitest"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
